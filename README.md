@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Bienvenue dans notre challenge technique ( Alternant )
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lisez s’il vous plaît le message et posez vos questions si vous en avez.
 
-## Available Scripts
+Pendant l’évaluation, nous préférons la qualité à la quantité.
+La qualité pour nous est une combinaison d’un code propre, facilement compréhensible et testable écrit d'une manière consistante. Un code qui n’introduit pas plus de dette technique que ce qu’il répare et qui est vide de code mort.
 
-In the project directory, you can run:
+Ce challenge représente pour nous un exemple de comment vous écrivez et structurez votre code et si vous pouvez justifier vos choix, les comprendre et les expliquer à quelqu’un d’autre.
 
-### `npm start`
+## Les points requis ( toutes les features doivent être présentes ):
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Construisez un PokéDex - Une application web en Javascript
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Une application avec un UI simple, minimaliste et fonctionnel :
+● Un listing d’éléments obtenus à partir d’un backend ou d’une API tierce
+○ Ces élément seront affichés en tant que cartes avec des attributs pour les différencier
+● Une interface de filtres et de recherche
 
-### `npm test`
+Traitons cette application comme un produit complet avec un ensemble de points requis. Cette application doit être :
+● Web-based ( et compatible avec les navigateurs modernes ) - pas de wrappers electron/cordova
+nécessaires
+● Responsive ( en restant reasonable, 2 breakpoints sont suffisants )
+● Prête à la production ( on peut build et servir le code minifié )
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Spécifications techniques :
 
-### `npm run build`
+● Stack technique imposée :
+○ Vue.js / React.js / Angular
+○ Javascript ( ou TypeScript si vous êtes familier )
+○ En bonus : Tailwind CSS ou autre librairie d’utilitaires CSS
+● L'utilisation du store est optionnelle
+● Pour générer le contenu le candidat peut utiliser cette API
+● Les 25 premiers éléments de la liste seront rendus sur la page principale
+● Au moins 150 éléments seront accessibles au total
+● Aux moins deux catégories de filtres sont requises
+● Une fonction de recherche textuelle est requise
+● Ne pas négliger le design. Librairie UI autorisée.
+● Une page "détails" pour chaque élément est requise
+● Une attention particulière sera portée à la lisibilité du code
+● Cet exercice devrait prendre entre 3 jours et une semaine
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Le rendu sera rendu accessible dans un repository GitHub. Avoir un historique de commit pertinent est toujours bienvenu.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Quand vous aurez fini, veuillez créer un pull request sur la branche principale pour qu’on puisse faire la revue et donner nos retours dessus.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Les régles:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pas de “points supplémentaires” pour:
+● Implémenter des features extra non couvertes par les points requis "car on pourrait en avoir besoin
+dans le future" - sauf bien sûr si vous pensez pouvoir convaincre l’utilisateur de cette application que
+ca sera un élément crucial.
+● Finir plus tôt - prenez votre temps, testez et faites une revue de votre code par vous même avant de
+poster la PR
