@@ -24,7 +24,7 @@ const PokemonAll = () => {
 
   const filteredPokemons =
     pokemonData?.results.filter((pokemon) =>
-      pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
+      pokemon.name.toLowerCase().includes(searchTerm.toLowerCase().trim())
     ) || [];
 
   if (error)
