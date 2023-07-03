@@ -1,6 +1,5 @@
 import axios from "axios";
 import { PokemonDTO, PokemonsDTO } from "../../dto";
-import { type } from "os";
 
 export class PokemonService {
   /* Get all pokemons */
